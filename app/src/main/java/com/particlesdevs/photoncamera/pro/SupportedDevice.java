@@ -62,11 +62,6 @@ public class SupportedDevice {
         if (mSupportedDevicesSet == null) {
             return;
         }
-        if (mSupportedDevicesSet.contains(THIS_DEVICE)) {
-            PhotonCamera.showToastFast(R.string.device_support);
-        } else {
-            PhotonCamera.showToastFast(R.string.device_unsupport);
-        }
     }
 
     public boolean isSupportedDevice() {
